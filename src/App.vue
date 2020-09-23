@@ -10,7 +10,7 @@
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
         <b-card bg-variant="primary" text-variant="white" header="Democrat" class="text-center" footer-tag="footer">
-          <b-card-text>Leslie Knope</b-card-text>
+          <b-card-text>Leslie  Knope </b-card-text>
           <b-button size="lg" variant="success" class="btn btn-primary active" @click="vote('yes')">Vote</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
