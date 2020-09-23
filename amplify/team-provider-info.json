@@ -2,13 +2,37 @@
     "dev": {
         "awscloudformation": {
             "AuthRoleName": "pollcounter-dev-20190604142028-authRole",
-            "UnauthRoleArn": "arn:aws:iam::763653534548:role/pollcounter-dev-20190604142028-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::763653534548:role/pollcounter-dev-20190604142028-authRole",
+            "UnauthRoleArn": "arn:aws:iam::036706760640:role/pollcounter-dev-20190604142028-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::036706760640:role/pollcounter-dev-20190604142028-authRole",
             "Region": "us-east-1",
             "DeploymentBucketName": "pollcounter-dev-20190604142028-deployment",
             "UnauthRoleName": "pollcounter-dev-20190604142028-unauthRole",
             "StackName": "pollcounter-dev-20190604142028",
-            "StackId": "arn:aws:cloudformation:us-east-1:763653534548:stack/pollcounter-dev-20190604142028/6e5451c0-86f5-11e9-84ff-0a16600979f0"
+            "StackId": "arn:aws:cloudformation:us-east-1:036706760640:stack/pollcounter-dev-20190604142028/6e5451c0-86f5-11e9-84ff-0a16600979f0"
+        }
+    },
+    "schaedev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-pollcounter-schaedev-134818-authRole",
+            "UnauthRoleArn": "arn:aws:iam::036706760640:role/amplify-pollcounter-schaedev-134818-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::036706760640:role/amplify-pollcounter-schaedev-134818-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-pollcounter-schaedev-134818-deployment",
+            "UnauthRoleName": "amplify-pollcounter-schaedev-134818-unauthRole",
+            "StackName": "amplify-pollcounter-schaedev-134818",
+            "StackId": "arn:aws:cloudformation:us-east-1:036706760640:stack/amplify-pollcounter-schaedev-134818/f98a7700-fdc4-11ea-ae56-0a1f955da693",
+            "AmplifyAppId": "d18hkpz0ubf94o"
+        },
+        "categories": {
+            "function": {
+                "pollCounterFunction": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d18hkpz0ubf94o",
+                    "type": "manual"
+                }
+            }
         }
     }
 }
