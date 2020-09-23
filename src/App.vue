@@ -11,13 +11,13 @@
       <b-card-group deck>
         <b-card bg-variant="primary" text-variant="white" header="Democrat" class="text-center" footer-tag="footer">
           <b-card-text>Leslie Knope</b-card-text>
-          <b-button size="xlg" variant="success"  @click="vote('yes')">Vote</b-button>
+          <b-button size="lg" variant="success" class="btn btn-primary active" @click="vote('yes')">Vote</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 
         <b-card bg-variant="danger" text-variant="white" header="Republican" class="text-center" footer-tag="footer">
           <b-card-text>Bobby Newport</b-card-text>
-          <b-button size="xlg" variant="success" @click="vote('no')">Vote</b-button>
+          <b-button size="lg" variant="success" class="btn btn-primary active" @click="vote('no')">Vote</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
         
